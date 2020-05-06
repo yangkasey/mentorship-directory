@@ -6,7 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>\
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
 
     <link rel="stylesheet" href="css/style.css"/>
@@ -34,12 +37,12 @@
             <li><button class="dropdown-item" type="button" id = "mentor-name">Name</button></li>
           </ul>
         </div>
-        <form action="#" method="#" role="search">
-        <div class="input-group">
-        <input class="form-control" placeholder="Search for a skill, such as 'accounting'" name="srch-term" id="ed-srch-term" type="text">
-        <div class="input-group-btn">
-        <button type="submit" id="searchbtn"><img id = "search-icon" src="https://image.flaticon.com/icons/svg/1086/1086933.svg"></button>
-        </div>
+        <form action="#" method="#" role="search" autocomplete="off">
+          <div class="input-group">
+          <input class="form-control" placeholder="Search for a skill, such as 'accounting'" name="srch-term" id="ed-srch-term" type="text">
+          <div class="input-group-btn">
+          <button type="submit" id="searchbtn"><img id = "search-icon" src="https://image.flaticon.com/icons/svg/1086/1086933.svg"></button>
+          </div>
         </div>
         </form>
         </div>
