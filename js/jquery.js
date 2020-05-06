@@ -1,4 +1,4 @@
-$(document).ready(function(){
+  $(document).ready(function(){
   $("#skills").click(function(){
     console.log("button clicked");
     $(".form-control").attr("placeholder", "Search for a skill, such as 'accounting'");
