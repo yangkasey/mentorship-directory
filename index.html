@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <link rel ="stylesheet" href="css/html5reset.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css" integrity="sha384-y3tfxAZXuh4HwSYylfB+J125MxIs6mR5FOHamPBG064zB+AFeWH94NdvaCBm8qnd" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src = "js/jquery.js"></script>
+    <title>optiMize Mentorship Portal</title>
+  </head>
+
+  <body>
+    <div class = "container" id = "welcome-container">
+      <h1>Welcome to the optiMize<br>Mentorship Portal!</h1>
+      <p>Use this resource to find mentors based on skills and location.</p>
+    </div>
+    <div class="container">
+      <div class="row">
+      <div class="col-xs-10 col-xs-offset-2">
+        <p class = "search-by-intro"> Searching by: </p>
+        <div class="dropdown">
+          <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Skills</button>
+          <ul class="dropdown-menu">
+            <li><button class="dropdown-item" type="button" id = "skills">Skills</button></li>
+            <li><button class="dropdown-item" type="button" id = "location">Location</button></li>
+            <li><button class="dropdown-item" type="button" id = "mentor-name">Name</button></li>
+          </ul>
+        </div>
+      <form action="#" method="#" role="search">
+      <div class="input-group">
+      <input class="form-control" placeholder="Search for a skill, such as 'accounting'" name="srch-term" id="ed-srch-term" type="text">
+      <div class="input-group-btn">
+      <button type="submit" id="searchbtn"><img id = "search-icon" src="https://image.flaticon.com/icons/svg/1086/1086933.svg"></button>
+      </div>
+      </div>
+      </form>
+      </div>
+    </div>
+  </div>
+  <img src="images/scribbles-scribbles-14.png" id="background-img-1">
+  <img src="images/scribbles-scribbles.png" id="background-img-2">
+  </body>
+</html>
