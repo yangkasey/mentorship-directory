@@ -3,6 +3,7 @@
 body {
 	font-family: Proxima-Nova, sans-serif;
 	background-color: #ABD5E1;
+	padding-bottom: 40px;
 }
 
 h1 {
@@ -10,6 +11,11 @@ h1 {
 	color: #F26951;
 	line-height: 1.2;
 	font-size: 40px;
+}
+
+.card-title {
+	font-weight: bold;
+	color: #13466B;
 }
 
 #welcome {
@@ -126,6 +132,13 @@ border-radius: 0 60px 60px 0 !important;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+.card:hover {
+    transition: all 0.2s ease-out;
+    top: -4px;
+    background-color: #F8A469;
+}
+
+
 .card-text {
 	font-family: Proxima-Nova, sans-serif;
 	font-size: 25px;
@@ -172,4 +185,23 @@ border-radius: 0 60px 60px 0 !important;
   /*when navigating through the items using the arrow keys:*/
   background-color: DodgerBlue !important;
   color: #ffffff;
+}
+
+#suggested-skills {
+	margin-bottom: 100px;
+}
+
+#mentor-card {
+	background-color: #EDF0F1;
+	border-radius: 25px;
+	border: none;
+	max-width: 300px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	padding: 10px;
+}
+
+.mentor-img {
+	max-width: 200px;
+	height: auto;
+	position: center;
 }
